@@ -1,0 +1,59 @@
+@font-face {
+    font-family: robo;
+    src: url(./assets/fonts/Roboto-Thin.ttf);
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.top img{
+    margin-top: -20px;
+    margin-left: -10px;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family:robo ;
+}
+.sign-in{
+    height: 70vh;
+    width: 35vw;
+    background: url(./assets/img/sign.png);
+    background-size: cover;
+    padding: 10vh 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-radius: 30px;
+    border: 2px solid #4ebadb;
+    box-shadow: 0px 0px 10px 2px #4ebadb;
+}
+input{
+ height: 5vh;
+ box-sizing: border-box;
+ padding:5px 20px;
+ outline: none;
+ border: none;
+ border-radius: 30px;
+ margin-top: 5px;
+}
+button{
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: #4ebadb;
+    color: white;
+    margin-bottom: 10px;
+}

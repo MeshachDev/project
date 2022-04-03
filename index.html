@@ -11,8 +11,11 @@
     <div class="side">
       <div class="sidea">
         <div class="sc">
-          <h1 id="ulogo"></h1>
-          <h2 id="üname"></h2>
+          <div class="logo-div">
+            <h1 id="ulogo"> 
+            </h1>
+          </div>
+          <h2 id="uname"></h2>
         </div>
       </div>
     </div>
@@ -20,7 +23,7 @@
       <div class="left">
         <img
           id="ham"
-          height="50px"
+          height="28px"
           width="auto"
           style="margin-right: 10px"
           src="./assets/img/ham.png"
@@ -54,7 +57,6 @@
         </div>
         <div class="home_right">
           <h1>HI,</h1>
-          <!-- <img class="img" src="./assets/img/arrow.png" alt="" /> -->
           <p>
             I'm Meshach.<br /><br />
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel
@@ -112,7 +114,7 @@
           />
         </h1>
         <div class="form">
-          <form action="/" method="GET" >
+          <form action="/" id="form" onSubmit="event.preventDefault()"method="GET" >
             <div class="formin">
               <p id="error"></p>
               <label for="name">UserName :</label><br />
@@ -132,12 +134,14 @@
                 placeholder="Password"
                 required
               /><br /><br /><br />
-              <button type="submit">Submit</button>
+                <button type="submit">Submit</button><br>
+                <!-- <a href="./sign.html" >Don't have an account?</a> -->
             </div>
           </form>
         </div>
       </section>
     </div>
-    <script src="./app.js"></script>
+    <script type="module" src="./app.js"></script>
   </body>
 </html>
+<!-- </> -->

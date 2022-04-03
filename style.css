@@ -58,7 +58,6 @@ body {
 
 .header .left img {
   filter: invert(0.7);
-  transition: 0.5s;
 }
 .sidea{
   position: fixed;
@@ -70,7 +69,7 @@ body {
   z-index: 1000000px;
   display: flex;
   box-sizing: border-box;
-  padding: 15vh 0px;
+  padding: 5vh 0px;
   color: white;
   transition: 0.5s;
   display: flex;
@@ -91,16 +90,18 @@ body {
   padding: 15vh 0px;
   color: white;
   transition: 0.5s;
- 
 }
 .sc{
   text-align: center;
   min-height: 30vh;
   min-width: 28vw;
-  /* background-color:rgb(0, 0, 0); */
   box-sizing: border-box;
   padding: 5vh 0px;
   border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .sideon {
   transition:1s;
@@ -419,4 +420,24 @@ button {
 
 button:hover {
   box-shadow: 0px 0px 20px 1px #373326;
+}
+#ulogo {
+  font-size: 2.5;
+  font-weight: bold;
+}
+.logo-div{
+  margin-top: 10vh;
+  height: 14vh;
+  width: 7vw;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+a{
+  text-decoration: none;
+  color: #ffa8a8;
 }

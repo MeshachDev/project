@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-up</title>
+    <link rel="stylesheet" href="./sign.css">
+</head>
+<body>
+    <div class="sign-in">
+        <div class="top">
+            <h1 style="margin-bottom:20px">Sign Up</h1>
+            <img src="./assets/img/login.png" height="40"  width="auto"alt="">
+        </div>
+        
+     <form action="/sign-up" id="forms"onSubmit="event.preventDefault()">
+        <label for="name">UserName :</label><br />
+        <input
+          id="names"
+          type="text"
+          name="name"
+          placeholder="Username"
+          required
+          autocomplete="off"
+        /><br /><br />
+        <label for="password">Password :</label><br />
+        <input
+          id="passwords"
+          type="password"
+          name="password"
+          placeholder="Password"
+          required
+        /><br /><br /><br />
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="birthday" name="birthday"><br><br>
+          <button type="submit">Sign up</button> <br>
+          <a href="./index.html#login">Already have an account?</a>>
+     </form>
+    </div>
+    <!-- <script type="module" src="./app.js"></script> -->
+</body>
+</html>
